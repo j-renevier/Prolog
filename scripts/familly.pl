@@ -1,4 +1,4 @@
-% example.pl
+
 likes(john, mary).
 likes(mary, chocolate).
 likes(john, chocolate).
