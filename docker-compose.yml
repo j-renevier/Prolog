@@ -1,0 +1,10 @@
+services:
+  prolog:
+    container_name: prolog
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./scripts:/app/scripts
+    stdin_open: true
+    tty: true
